@@ -42,3 +42,11 @@ sudo systemctl start YOUR_SERVICE_NAME
 
 systemctl status YOUR_SERVICE_NAME
 
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
