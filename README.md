@@ -1,4 +1,4 @@
-# msiPrestige15 
+# msiPrestige15 fan control service
 
 -Run this commands
 ```
