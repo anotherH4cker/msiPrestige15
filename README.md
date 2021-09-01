@@ -1,11 +1,6 @@
-# msiPrestige15
+# msiPrestige15 
 
-
-// https://timleland.com/how-to-run-a-linux-program-on-startup/
-
-
-
--Run this command
+-Run this commands
 ```
 cd msiPrestige15
 sudo cp -r fancontrol /opt/
@@ -28,3 +23,7 @@ sudo systemctl start fancontrol.service
 ```
 systemctl status fancontrol.service
 ```
+
+
+Bibliography: 
+  https://timleland.com/how-to-run-a-linux-program-on-startup/
