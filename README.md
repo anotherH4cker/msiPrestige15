@@ -8,6 +8,7 @@ https://timleland.com/how-to-run-a-linux-program-on-startup/
 -Run this command
 ```
 cd msiPrestige15
+sudo cp -r fancontrol /opt/
 sudo cp fancontrol.service /etc/systemd/system/fancontrol.service
 ```
 
