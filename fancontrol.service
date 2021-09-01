@@ -1,0 +1,17 @@
+[Unit]
+Description=Custom service to manage the fan
+Wants=network.target
+After=syslog.target 
+After=network-online.target
+After=suspend.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/fancontrol/fan/
+ExecStart=/opt/fancontrol/fan/fancronjob.sh
+Restart=always
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
