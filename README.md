@@ -2,6 +2,7 @@
 
 -Run this commands
 ```
+sudo apt-get install lm-sensors
 cd msiPrestige15
 sudo cp -r fancontrol /opt/
 sudo cp fancontrol.service /etc/systemd/system/fancontrol.service
